@@ -1,0 +1,16 @@
+# Configuracion local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos privados cargados por usuarios
+/uploads/comprobantes/*
+!/uploads/comprobantes/.htaccess
+!/uploads/comprobantes/index.html
+
+# Respaldos y archivos temporales
+*.sql.gz
+*.bak
+*.log
+.DS_Store
+Thumbs.db
